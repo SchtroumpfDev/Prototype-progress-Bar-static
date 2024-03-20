@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(232, 225, 222);
+}
+p { 
+    font-size: 20px; 
+} 
+
+.center {
+    text-align: center;
+}
+.container { 
+    background-color: rgb(192, 192, 192); 
+    width: 80%; 
+    border-radius: 15px;
+    margin-left: 150px;
+} 
+.skill {  
+    color: white; 
+    padding: 1%; 
+    text-align: right; 
+    font-size: 20px; 
+    border-radius: 15px; 
+} 
+
+.html { 
+    background-color: #D35834;
+    width: 80%; 
+}
+.skill.html {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-right: 5px;
+}
+
+.skill.html .svg {
+    margin-left: 5px; /* Adds some space between the SVG and text */
+}
+.css {
+    background-color: #459AF6;
+    width: 60%; 
+}
+.skill.css {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-right: 5px;
+}
+
+.skill.css .svg {
+    margin-left: 5px; /* Adds some space between the SVG and text */
+}
+.javascript{
+    background-color: #F2DF50;
+    width: 80%; 
+}
+.skill.javascript {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-right: 5px;
+}
+.skill.javascript .svg {
+    margin-left: 5px; /* Adds some space between the SVG and text */
+}
+.python{
+    background: #5280AF;
+    width: 80%; 
+}
+.skill.python {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-right: 5px;
+}
+.skill.python .svg {
+    margin-left: 5px; /* Adds some space between the SVG and text */
+}
+.bash{
+    width: 80%; 
+}
+.skill.bash {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-right: 5px;
+}
+.skill.bash .svg {
+    margin-left: 5px; /* Adds some space between the SVG and text */
+}
+.aws{
+    background-color: #F19E37;
+    width: 80%; 
+}
+.skill.aws {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-right: 5px;
+}
+.skill.aws .svg {
+    margin-left: 5px; /* Adds some space between the SVG and text */
+}
+.docker{
+    background-color: #459AF6;
+    width: 80%; 
+}
+.skill.docker {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-right: 5px;
+}
+.skill.docker .svg {
+    margin-left: 5px; /* Adds some space between the SVG and text */
+}
+.notion{
+    width: 80%; 
+}
+.skill.notion {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-right: 5px;
+}
+.skill.notion .svg {
+    margin-left: 5px; /* Adds some space between the SVG and text */
+}
