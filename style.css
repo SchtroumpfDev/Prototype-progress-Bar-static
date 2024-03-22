@@ -1,10 +1,12 @@
 body {
-    background-color: rgb(232, 225, 222);
+    background-color: black;
 }
 p { 
     font-size: 20px; 
 } 
-
+h1 {
+    color: white;
+}
 .center {
     text-align: center;
 }
@@ -15,16 +17,15 @@ p {
     margin-left: 150px;
 } 
 .skill {  
-    color: white; 
+    color: black; 
     padding: 1%; 
     text-align: right; 
     font-size: 20px; 
     border-radius: 15px; 
 } 
-
 .html { 
     background-color: #D35834;
-    width: 80%; 
+    width: 60%; 
 }
 .skill.html {
     display: flex; /* Use flexbox for alignment */
@@ -37,7 +38,7 @@ p {
 }
 .css {
     background-color: #459AF6;
-    width: 60%; 
+    width: 70%; 
 }
 .skill.css {
     display: flex; /* Use flexbox for alignment */
@@ -50,7 +51,7 @@ p {
 }
 .javascript{
     background-color: #F2DF50;
-    width: 80%; 
+    width: 20%; 
 }
 .skill.javascript {
     display: flex; /* Use flexbox for alignment */
@@ -62,7 +63,7 @@ p {
 }
 .python{
     background: #5280AF;
-    width: 80%; 
+    width: 25%; 
 }
 .skill.python {
     display: flex; /* Use flexbox for alignment */
@@ -73,7 +74,8 @@ p {
     margin-left: 5px; /* Adds some space between the SVG and text */
 }
 .bash{
-    width: 80%; 
+    background: #5b5858;
+    width: 20%; 
 }
 .skill.bash {
     display: flex; /* Use flexbox for alignment */
@@ -85,7 +87,7 @@ p {
 }
 .aws{
     background-color: #F19E37;
-    width: 80%; 
+    width: 30%; 
 }
 .skill.aws {
     display: flex; /* Use flexbox for alignment */
@@ -97,7 +99,7 @@ p {
 }
 .docker{
     background-color: #459AF6;
-    width: 80%; 
+    width: 20%; 
 }
 .skill.docker {
     display: flex; /* Use flexbox for alignment */
@@ -108,7 +110,8 @@ p {
     margin-left: 5px; /* Adds some space between the SVG and text */
 }
 .notion{
-    width: 80%; 
+    background: #5b5858;
+    width: 40%; 
 }
 .skill.notion {
     display: flex; /* Use flexbox for alignment */
@@ -116,5 +119,144 @@ p {
     margin-right: 5px;
 }
 .skill.notion .svg {
+    margin-left: 5px; /* Adds some space between the SVG and text */
+}
+.tailwind{
+    background: #62BAF3;
+    width: 98%;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px); 
+}
+.skill.tailwind {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-right: 5px;
+}
+.skill.tailwind .svg {
+    margin-left: 5px; /* Adds some space between the SVG and text */
+}
+.bootstrap{
+    background: #7C1FF2;
+    width: 15%; 
+}
+.skill.bootstrap {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-right: 5px;
+}
+.skill.bootstrap .svg {
+    margin-left: 5px; /* Adds some space between the SVG and text */
+}
+.react{
+    background: #499CC5;
+    width: 98%; 
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+}
+.skill.react {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-right: 5px;
+}
+.skill.react .svg {
+    margin-left: 5px; /* Adds some space between the SVG and text */
+}
+.typescript{
+    background: #4475C0;
+    width: 98%; 
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+}
+.skill.typescript {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-right: 5px;
+}
+.skill.typescript .svg {
+    margin-left: 5px; /* Adds some space between the SVG and text */
+}
+.github{
+    background: #FFFFFF;
+    width: 40%; 
+}
+.skill.github {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-right: 5px;
+}
+.skill.github .svg {
+    margin-left: 5px; /* Adds some space between the SVG and text */
+}
+.git{
+    background: #E25A37;
+    width: 10%; 
+}
+.skill.git {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-right: 5px;
+}
+.skill.git .svg {
+    margin-left: 5px; /* Adds some space between the SVG and text */
+}
+.nginx{
+    background: #43972A;
+    width: 15%; 
+}
+.skill.nginx {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-right: 5px;
+}
+.skill.git .nginx {
+    margin-left: 5px; /* Adds some space between the SVG and text */
+}
+.postgreSQL{
+    background: #40648D;
+    width: 98%;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+}
+.skill.postgreSQL {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-right: 5px;
+}
+.skill.git .postgreSQL {
+    margin-left: 5px; /* Adds some space between the SVG and text */
+}
+.nodejs{
+    background: #69A151;
+    width: 98%;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+}
+.skill.nodejs {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-right: 5px;
+}
+.skill.git .nodejs {
+    margin-left: 5px; /* Adds some space between the SVG and text */
+}
+.terraform{
+    background: #7345B6;
+    width: 98%;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+}
+.skill.terraform {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-right: 5px;
+}
+.skill.git .terraform {
+    margin-left: 5px; /* Adds some space between the SVG and text */
+}
+.ansible{
+    background: #d3d2d2;
+    width: 98%;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+}
+.skill.ansible {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-right: 5px;
+}
+.skill.git .ansible {
     margin-left: 5px; /* Adds some space between the SVG and text */
 }
